@@ -1,0 +1,105 @@
+.app-container{
+    font-family: 'Shippori Antique B1', sans-serif;
+    background-color: #B4CBD9;
+    color: #1f1f1f;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 2em;
+    color: #1f1f1f;
+    padding: 1em;
+}
+
+.form{
+    background-color: #5D7F8C;
+    padding: 1em;
+    margin: 1em;
+    border-radius: .2em;
+    width: 30vw;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.eventName{
+    background-color: #1f1f1f00;
+    color: #f0f0f2;
+    border:none;
+    border-bottom: solid #1f1f1f .1em;
+    margin: .5em 0;
+    padding: .5em;
+    outline: none;
+}
+
+.eventName::placeholder{
+    color: #f0f0f2c4;
+}
+
+.eventDate{
+    background-color: #1f1f1f00;
+    color: #f0f0f2c4;
+    border:none;
+    border-bottom: solid #1f1f1f .1em;
+    margin: .5em 0;
+    padding: .5em;
+    outline: none;
+}
+
+.bAdd{
+    background-color: #B4CBD9;
+    color: #1f1f1f;
+    font-weight: bold;
+    border: none;
+    border-radius: .2em;
+    padding: .5em;
+}
+
+.event{
+    width: 30vw;
+    border-bottom: solid #1f1f1f .1em;
+    margin: .5em 0;
+    padding: .5em 1em;
+}
+
+.days{
+    padding: .2em 0;
+}
+
+.event-name{
+    padding: .2em 0;
+}
+
+.event-date{
+    padding: .2em 0;
+}
+
+.actions{
+    padding: .2em 0;
+}
+
+.bDelete{
+    background-color: #5D7F8C;
+    color: #f0f0f2;
+    font-weight: bold;
+    border: none;
+    border-radius: .2em;
+    padding: .5em;
+}
+
+@media screen and (max-width: 574px) {
+    .form{
+        width: 80vw;
+    }
+
+    .event{
+        width: 80vw;
+    }
+}
